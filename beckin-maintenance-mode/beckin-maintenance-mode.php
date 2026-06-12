@@ -4,9 +4,9 @@
  * Description: Simple maintenance / coming soon toggle with customizable message, admin bypass, and proper 503 + Retry-After.
  *
  * @package                 Beckin_Maintenance_Mode
- * Version: 1.2.0
- * Requires at least: 6.8
- * Tested up to: 6.9
+ * Version: 1.2.1
+ * Requires at least: 7.0
+ * Tested up to: 7.0
  * Requires PHP: 8.0
  * Author: Beckin, Christopher Silvey
  * Author URI: https://www.beckin.com
@@ -23,7 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Core constants */
 if ( ! defined( 'BECKIN_MAINTENANCEMODE_VERSION' ) ) {
-	define( 'BECKIN_MAINTENANCEMODE_VERSION', '1.2.0' );
+	define( 'BECKIN_MAINTENANCEMODE_VERSION', '1.2.1' );
 }
 if ( ! defined( 'BECKIN_MAINTENANCEMODE_PLUGIN_BASENAME' ) ) {
 	define( 'BECKIN_MAINTENANCEMODE_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );

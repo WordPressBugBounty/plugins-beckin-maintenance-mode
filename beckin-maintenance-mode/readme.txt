@@ -2,9 +2,9 @@
 Contributors: beckin
 Donate link: https://www.buymeacoffee.com/beckin
 Tags: maintenance mode, coming soon, 503 status, site updates, maintenance
-Stable tag: 1.2.0
-Requires at least: 6.8
-Tested up to: 6.9
+Stable tag: 1.2.1
+Requires at least: 7.0
+Tested up to: 7.0
 Requires PHP: 8.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -106,6 +106,12 @@ Yes. The maintenance page is a standalone template that does not load your theme
 `wp beckin-mm status`
 
 == Changelog ==
+= 1.2.1 (06/12/2026) =
+
+__Changed__
+* Confirmed compatibility with WordPress 7.0.
+
+
 = 1.2.0 (12/21/2025) =
 
 __Added__
